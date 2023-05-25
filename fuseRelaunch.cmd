@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/Download/vga/statemachine/state_test_isim_beh.exe" -prj "D:/Download/vga/statemachine/state_test_beh.prj" "work.state_test" 

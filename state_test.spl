@@ -1,0 +1,12 @@
+[Inputs]
+clk
+=go_up[1:0]=
+=go_down[1:0]=
+=go_floor[2:0]=
+=floor[2:0]=
+=receive_bits[1:0]=
+[Outputs]
+=stateLedOut[3:0]=
+=stateOut[3:0]=
+=segment_floor[7:0]=
+[BiDir]

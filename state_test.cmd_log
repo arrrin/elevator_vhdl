@@ -1,0 +1,355 @@
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+vhdtdtfi -lib work state_test.vhd -prj statemachine -o state_test.spl -module state_test -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 state_test.spl D:/Download/vga/statemachine/state_test.sym 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+vhdtdtfi -prj statemachine -o D:/Download/vga/statemachine/state_test.tfi -module state_test -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work state_test.vhd 
+vhdtdtfi -lib work state_test.vhd -prj statemachine -o state_test.spl -module state_test -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 state_test.spl D:/Download/vga/statemachine/state_test.sym 
+vhdtdtfi -prj statemachine -o D:/Download/vga/statemachine/state_test.tfi -module state_test -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work state_test.vhd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+xst -intstyle ise -ifn "D:/Download/vga/statemachine/state_test.xst" -ofn "D:/Download/vga/statemachine/state_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 state_test.ngc state_test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o state_test_map.ncd state_test.ngd state_test.pcf 
+par -w -intstyle ise -ol high -mt off state_test_map.ncd state_test.ncd state_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml state_test.twx state_test.ncd -o state_test.twr state_test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f state_test.ut state_test.ncd 

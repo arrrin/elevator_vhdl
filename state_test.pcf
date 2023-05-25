@@ -1,0 +1,36 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu May 25 00:57:11 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "go_floor<0>" LOCATE = SITE "P115" LEVEL 1;
+COMP "go_floor<1>" LOCATE = SITE "P116" LEVEL 1;
+COMP "go_floor<2>" LOCATE = SITE "P117" LEVEL 1;
+COMP "segment_floor<0>" LOCATE = SITE "P44" LEVEL 1;
+COMP "segment_floor<1>" LOCATE = SITE "P41" LEVEL 1;
+COMP "segment_floor<2>" LOCATE = SITE "P40" LEVEL 1;
+COMP "segment_floor<3>" LOCATE = SITE "P35" LEVEL 1;
+COMP "go_up<0>" LOCATE = SITE "P121" LEVEL 1;
+COMP "segment_floor<4>" LOCATE = SITE "P34" LEVEL 1;
+COMP "go_up<1>" LOCATE = SITE "P120" LEVEL 1;
+COMP "segment_floor<5>" LOCATE = SITE "P32" LEVEL 1;
+COMP "segment_floor<6>" LOCATE = SITE "P29" LEVEL 1;
+COMP "segment_floor<7>" LOCATE = SITE "P27" LEVEL 1;
+COMP "floor<0>" LOCATE = SITE "P21" LEVEL 1;
+COMP "floor<1>" LOCATE = SITE "P16" LEVEL 1;
+COMP "floor<2>" LOCATE = SITE "P14" LEVEL 1;
+COMP "stateLedOut<0>" LOCATE = SITE "P79" LEVEL 1;
+COMP "stateLedOut<1>" LOCATE = SITE "P78" LEVEL 1;
+COMP "stateOut<0>" LOCATE = SITE "P24" LEVEL 1;
+COMP "stateLedOut<2>" LOCATE = SITE "P75" LEVEL 1;
+COMP "stateOut<1>" LOCATE = SITE "P22" LEVEL 1;
+COMP "stateLedOut<3>" LOCATE = SITE "P74" LEVEL 1;
+COMP "stateOut<2>" LOCATE = SITE "P17" LEVEL 1;
+COMP "stateOut<3>" LOCATE = SITE "P15" LEVEL 1;
+COMP "receive_bits<0>" LOCATE = SITE "P11" LEVEL 1;
+COMP "receive_bits<1>" LOCATE = SITE "P9" LEVEL 1;
+COMP "go_down<0>" LOCATE = SITE "P119" LEVEL 1;
+COMP "go_down<1>" LOCATE = SITE "P118" LEVEL 1;
+COMP "clk" LOCATE = SITE "P123" LEVEL 1;
+SCHEMATIC END;
+

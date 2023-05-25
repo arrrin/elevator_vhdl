@@ -1,0 +1,17 @@
+
+
+
+// Instantiate the module
+state_test instance_name (
+    .go_up(go_up), 
+    .go_down(go_down), 
+    .go_floor(go_floor), 
+    .floor(floor), 
+    .clk(clk), 
+    .stateLedOut(stateLedOut), 
+    .stateOut(stateOut), 
+    .segment_floor(segment_floor), 
+    .receive_bits(receive_bits)
+    );
+
+

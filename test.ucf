@@ -1,0 +1,39 @@
+NET "clk" LOC = P123;
+
+NET "go_up<0>" LOC = P121;
+NET "go_up<1>" LOC = P120;
+NET "go_down<0>" LOC = P119;
+NET "go_down<1>" LOC = P118;
+NET "go_floor<2>" LOC = P117;
+NET "go_floor<1>" LOC = P116;
+NET "go_floor<0>" LOC = P115;
+
+NET "floor<2>" LOC = P14;
+NET "floor<1>" LOC = P16;
+NET "floor<0>" LOC = P21;
+
+NET "receive_bits<0>" LOC = P11;
+NET "receive_bits<1>" LOC = P9;
+
+NET "stateLedOut<3>" LOC = P74;
+NET "stateLedOut<2>" LOC = P75;
+NET "stateLedOut<1>" LOC = P78;
+NET "stateLedOut<0>" LOC = P79;
+
+NET "stateOut<3>" LOC = P15;
+NET "stateOut<2>" LOC = P17;
+NET "stateOut<1>" LOC = P22;
+NET "stateOut<0>" LOC = P24;
+
+NET "segment_floor<7>" LOC = P27;
+NET "segment_floor<6>" LOC = P29;
+NET "segment_floor<5>" LOC = P32;
+NET "segment_floor<4>" LOC = P34;
+NET "segment_floor<3>" LOC = P35;
+NET "segment_floor<2>" LOC = P40;
+NET "segment_floor<1>" LOC = P41;
+NET "segment_floor<0>" LOC = P44;
+
+
+# PlanAhead Generated physical constraints 
+

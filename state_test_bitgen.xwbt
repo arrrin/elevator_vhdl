@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Download\vga\statemachine\state_test.ncd
+OUTFILE=D:\Download\vga\statemachine\state_test.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=D:\Download\vga\statemachine
+LICENSE=WebPack
+USER_INFO=__0_0_0
